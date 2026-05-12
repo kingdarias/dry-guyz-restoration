@@ -1,4 +1,19 @@
-# Git Integration & Wix CLI <img align="left" src="https://user-images.githubusercontent.com/89579857/185785022-cab37bf5-26be-4f11-85f0-1fac63c07d3b.png">
+# Dry Guyz Restoration Website
+
+The static website is in `docs/`. That folder can be published directly with GitHub Pages or another static host.
+
+To preview it locally:
+
+```bash
+cd docs
+python3 -m http.server 8080
+```
+
+Then open `http://localhost:8080`.
+
+The original Wix project files are still in this repo.
+
+## Wix CLI Notes
 
 This repo is part of Git Integration & Wix CLI, a set of tools that allows you to write, test, and publish code for your Wix site locally on your computer. 
 
