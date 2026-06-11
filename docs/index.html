@@ -187,18 +187,26 @@
             <article><h3>Hours of Operation</h3><p>24 Hours a Day, 7 Days a Week, 365 Days a Year.</p></article>
           </div>
         </div>
-        <form class="quote-form" id="quote-form">
+        <form
+          class="quote-form"
+          id="quote-form"
+          action="https://submit.jotform.com/submit/261614595823059"
+          method="post"
+        >
+          <input type="hidden" name="formID" value="261614595823059" />
+          <input type="hidden" name="simple_spc" value="261614595823059-261614595823059" />
+          <input type="hidden" name="website" value="" />
           <h2>Get a Free Quote</h2>
           <p>Tell us what happened. We'll call you back within 15 minutes.</p>
           <div class="form-row">
-            <label>First Name<input name="firstName" placeholder="John" required /></label>
-            <label>Last Name<input name="lastName" placeholder="Doe" required /></label>
+            <label>First Name<input name="q3_name[first]" placeholder="John" required /></label>
+            <label>Last Name<input name="q3_name[last]" placeholder="Doe" required /></label>
           </div>
-          <label>Email<input type="email" name="email" placeholder="john@example.com" required /></label>
-          <label>Phone<input type="tel" name="phone" placeholder="(555) 123-4567" required /></label>
+          <label>Email<input type="email" name="q4_email" placeholder="john@example.com" required /></label>
+          <label>Phone<input type="tel" name="q5_phoneNumber[full]" placeholder="(555) 123-4567" required /></label>
           <label>
             Service Needed
-            <select name="service" required>
+            <select name="q9_serviceNeeded" required>
               <option value="">Select a service</option>
               <option>Water Damage</option>
               <option>Fire & Smoke</option>
@@ -208,7 +216,7 @@
               <option>Other</option>
             </select>
           </label>
-          <label>Message (Optional)<textarea name="message" placeholder="Briefly describe the issue..."></textarea></label>
+          <label>Message (Optional)<textarea name="q8_pleaseDescribe" placeholder="Briefly describe the issue..."></textarea></label>
           <button class="btn btn-primary" type="submit">Send Request</button>
           <p class="form-status" role="status" aria-live="polite"></p>
         </form>
